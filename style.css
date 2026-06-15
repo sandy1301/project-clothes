@@ -124,6 +124,8 @@ footer{
 
 #products{
       background-color:seashell;
+      padding:10px;
+       gap:30px;
 }
 #products h2{
     font-size:40px;
@@ -138,7 +140,7 @@ footer{
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     border-radius: 10px;
      overflow: hidden;
-
+   
 }
 .card img{
     width:300px;
@@ -311,6 +313,7 @@ footer{
 
     .navbar .navbar-brand{
         font-size:20px;
+       
     }
 
     .home h1{
@@ -325,7 +328,7 @@ footer{
     #products h2{
         font-size:25px;
     }
-
+    
     .card img{
         height:200px;
     }

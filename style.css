@@ -120,7 +120,7 @@ body{
     transform:translateY(-8px);
     background-color: black;
     color:whitesmoke;
-   
+    animation:trani;
     h2{
         color:white;
     }

@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 
 }
+body{
+   background-color: #121212;
+    color: white;
+}
 .navbar{
     background: whitesmoke;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
@@ -72,7 +76,8 @@
 }
 .about{
     padding:60px 20px;
-    background:#daa884;
+       background-color: #121212;
+    color: white;
    min-height:80vh;
     margin:0;
     padding:0;
@@ -87,12 +92,12 @@
 
 .about-container h1{
     font-size:45px;
-    color:#333;
+    color: white;
     margin-bottom:20px;
 }
 .intro{
     font-size:18px;
-    color:black;
+    color: white;
     margin-bottom:40px;
     line-height:1.8;
 }
@@ -113,28 +118,26 @@
 
 .box:hover{
     transform:translateY(-8px);
+    background-color: black;
+    color:whitesmoke;
+   
+    h2{
+        color:white;
+    }
+    
 }
 
 .box h2{
     color:#222;
     margin-bottom:15px;
 }
-
 .box p{
     color:#666;
     line-height:1.6;
 }
-
-footer{
-    background-color:black;
-    padding: 5px 0;
-    text-align: center;
-    color:white;
-    font-size: 16px;
-}
-
 #products{
-      background-color:seashell;
+       background-color: #121212;
+    color: white;
       padding:10px;
        gap:30px;
 }
@@ -162,6 +165,7 @@ footer{
 .card img{
     width:300px;
     height:250px;
+
     
 }
 .card h5{
@@ -200,19 +204,21 @@ footer{
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 .card:hover{
-    transform: translateY(-5px);
+    transform: translate(5px,5px);
+    transition: 1s;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 
 }
   .contact-section{
-    background-color:beige;
+        background-color: #121212;
+    color: white;
     padding:20px;
 }
 .contact-title{
     text-align:center;
     font-size:40px;
     font-weight:300;
-    color:black;
+  color: white;
 }
 .btn-contact{
     background-color:green !important;
